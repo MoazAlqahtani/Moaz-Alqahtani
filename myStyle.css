@@ -1,0 +1,169 @@
+.head ul{
+    background-color: lightslategray;
+    padding: 15px 0px;
+    border:  none;
+}
+.head ul li{
+    display: inline;
+    padding: 15px 30px ;
+    color: white;
+}
+.head li:hover{
+    background: rgb(88, 88, 88);
+    
+}
+.main a{
+     text-decoration: none;
+     color:black;
+}
+.head a{ 
+    color: white;
+}
+#news{
+    background-color: rgba(13, 255, 0, 0.53);
+}
+#mainTitle{
+border-top: 1px solid rgb(128, 128, 128);
+border-bottom: 1px solid rgb(128, 128, 128);
+padding-left: 3px;
+padding-top: 3px;
+padding-bottom: 3px; 
+}
+#mainTitle h5{
+    display: inline;       
+    margin-right:7px;
+    padding-left: 3px;  
+    font-size:15px;
+    font-weight: lighter;
+}
+
+.newsList ul li{
+    list-style: none;
+    margin: 5px;
+}
+
+.newsList > li{
+    list-style-image: url('https://i.imgur.com/UIjK7p6.png');
+    border-bottom: 1px solid rgb(180, 180, 180); 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    
+    
+    
+}
+
+#content{
+    background-color: rgb(235, 235, 235);
+    margin-left: 40px; 
+    margin-right: 40px; 
+}
+
+footer{
+    border-top: 1px solid rgb(180, 180, 180); 
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.jsBody{
+    background-color: rgb(231, 229, 229);
+}
+
+.jsContent{
+    max-width: 700px;
+    margin-left: 28%;
+    margin-right: 10%;
+    padding: 2%; 
+    background-color: white;
+}
+
+.jsContent h1{
+    color: green;
+
+}
+
+div.Code{
+background-color: rgb(49, 49, 49);
+color:white; 
+padding: 1% 1%;
+
+}
+
+code{
+width: 100%;
+   
+    }
+
+table{
+width: 100%;
+border-spacing: 0px; 
+}
+
+#table th{
+    text-align: left;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    }
+
+#table tr:nth-child(odd){
+    background-color: rgb(241, 241, 241);
+}
+
+#Linput input{
+    width: 100%;
+    padding: 3px 3px;
+}
+
+#Linput input:focus{
+    background-color: rgb(241, 241, 241);
+    color: rgb(0, 0, 0);
+}
+
+#textBox textarea{
+    width: 100%;
+    resize: none;
+} 
+
+#textBox textarea:focus{
+    background-color: rgb(241, 241, 241);
+    color: rgb(0, 0, 0);
+}
+
+button{
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(11, 165, 0);
+    color: white;
+}
+
+#headTitle{
+    color: black;
+}
+
+
+#vote{
+    width:50px; 
+    text-align:center;
+  }
+
+  #up,#down{
+
+    font-size:25px;
+     color: black; 
+     background-color: #FFFFFF;
+  }
+
+  #num{
+    font-weight:bold;
+     margin: 0px;
+  }
+
+#mainTitle label{
+    
+        float: right;
+        margin-right: 5px;
+}
+
+
+
+
+    
