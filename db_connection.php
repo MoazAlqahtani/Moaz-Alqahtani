@@ -1,10 +1,9 @@
 <?php
 
-$servername = "localhost";
-$username = "moaz";
-$password = "";
-$database = "c9";
-$table = "news";
+  $servername = "eu-cdbr-west-01.cleardb.com";
+    $username = "b5cb0c7c276522";
+    $password = "4dd83117";
+    $database = "heroku_919492313e633ae";
 
 $conn = new mysqli($servername,$username,$password,$database);
 
